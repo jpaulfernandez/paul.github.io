@@ -3264,6 +3264,7 @@ html {
   }
   .about-section{
     margin-bottom: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -4140,6 +4141,12 @@ html {
   }
   .hidden-xs{
     display: none !important;
+  }
+  .about-section{
+    margin-top: 20px;
+  }
+  .footer-section > div > h1{
+    font-size: 24px;
   }
 }
 
