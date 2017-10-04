@@ -3086,6 +3086,14 @@ p {
   background: #43AEE8;
   border-color: #43AEE8;
   border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.15s ease-out 0s;
+}
+
+.git-btn:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #107BB5;
 }
 
 .links {
@@ -3105,22 +3113,25 @@ p {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 5px 0;
+  float: left;
+  transition: all 0.15s ease-out 0s;
 }
 
 .links > li > a {
   text-decoration: none;
-  color: #414141;
-  font-size: 16px;
-}
-
-.links > li > a:hover {
+  font-size: 36px;
   color: #43AEE8;
   transition: all 0.15s ease-out 0s;
 }
 
+.links > li > a:hover {
+  text-decoration: none;
+  color: #107BB5;
+  font-size: 40px;
+}
+
 .links > li > a > i {
-  color: #43AEE8;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .photog {
@@ -3177,6 +3188,28 @@ p {
   color: #414141;
 }
 
+.tech-logo {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tech-logo > img {
+  width: 150px;
+  height: auto;
+}
+
+.tech-logo > img.center {
+  margin-top: 60px;
+}
+
 html {
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif !important;
@@ -3198,7 +3231,7 @@ html {
 }
 
 .about-section > p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
 }
 
@@ -3240,6 +3273,12 @@ html {
 .talk-section {
   background: #F8F8F8;
   padding: 30px;
+}
+
+.arsenal-section {
+  background: #F8F8F8;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 
 .footer-section {
