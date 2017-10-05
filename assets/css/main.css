@@ -3161,6 +3161,31 @@ p {
   color: #FFFFFF;
 }
 
+.project {
+  margin: 15px 0;
+}
+
+.project .logo {
+  background-size: cover;
+  background-position: center center;
+  height: 319px;
+}
+
+.project .logo img {
+  height: 100%;
+}
+
+.project .title p {
+  margin: 0;
+  font-size: 20px;
+  color: #414141;
+  font-weight: 400;
+}
+
+.project .desc p {
+  text-align: justify;
+}
+
 .talk {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3289,6 +3314,14 @@ html {
 
 .logo > img {
   width: 100%;
+}
+
+p > a {
+  color: #43AEE8;
+}
+
+p > a:hover {
+  color: #107BB5;
 }
 
 @media (max-width: 768px){

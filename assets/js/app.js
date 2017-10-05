@@ -2,13 +2,14 @@
 
 	'use strict';
 
-	window.sr = ScrollReveal({reset: true});
-	sr.reveal('.about-section');
-	sr.reveal('.portrait-section');
-	sr.reveal('.work-section');
-	sr.reveal('.project-section');
-	sr.reveal('.arsenal-section');
-	sr.reveal('.photog-section');
-	sr.reveal('.talk-section');
+	window.sr = ScrollReveal();
+	sr.reveal('._abtanim',50);
+	sr.reveal('.exp',50);
+	sr.reveal('._panim',50);
+	sr.reveal('._icoanim',50);
+	sr.reveal('._phanim',50);
+	sr.reveal('._tkanim',50);
 	sr.reveal('.footer-section');
+
+
 })();
